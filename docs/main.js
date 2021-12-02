@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("DOMContentLoaded",(d=>{console.log("DOM fully loaded and parsed")}))})();
