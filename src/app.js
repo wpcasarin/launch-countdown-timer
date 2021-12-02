@@ -3,7 +3,7 @@ import "./scss/main.scss";
 window.addEventListener("DOMContentLoaded", () => {
     const zeroPad = (num, places) => String(num).padStart(places, "0");
     let countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 8);
+    countDownDate.setDate(countDownDate.getDate() + 14);
 
     setInterval(() => {
         let now = new Date().getTime();
