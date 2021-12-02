@@ -11,6 +11,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 -   [My process](#my-process)
     -   [Built with](#built-with)
     -   [What I learned](#what-i-learned)
+    -   [Todo](#todo)
 
 ## Overview
 
@@ -50,3 +51,7 @@ Sass partials and imports with:
 @use 
 @forward
 ```
+### Todo
+- **Fix: Accessibility**
+- **Fix: Mobile version**
+- **Fix: Background behavior on different resolutions**
