@@ -1,0 +1,14 @@
+@use "../abstract" as *;
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 5rem;
+}
+
+.social > *:hover,
+.social > *:focus-visible {
+  filter: invert(51%) sepia(71%) saturate(1316%) hue-rotate(309deg)
+    brightness(98%) contrast(100%);
+}
