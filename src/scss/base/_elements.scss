@@ -1,0 +1,9 @@
+@use "../abstract" as *;
+
+body {
+  background: url("../assets/bg-stars.svg"), url("../assets/pattern-hills.svg"),
+    linear-gradient($color-blue-800, $color-gradient);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 75vh, 100% 25vh, 100%, 100vh;
+  background-position: top, bottom;
+}
