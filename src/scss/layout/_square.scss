@@ -1,0 +1,43 @@
+@use "../abstract" as *;
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: $square-size;
+  aspect-ratio: 1;
+  background: $color-blue-700;
+  border-radius: $square-border-radius;
+  color: $color-accent;
+  font-size: $square-font-size;
+  box-shadow: 0 $square-shadow-size $square-shadow-blur $color-blue-850;
+}
+
+.square-darker {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  // border-bottom: 1px solid $color-blue-850;
+  box-shadow: 0 1px calc($square-size / 20) $color-blue-850;
+}
+
+.decorator {
+  position: absolute;
+  background-color: $color-blue-850;
+  width: $square-decorator-size;
+  aspect-ratio: 1;
+}
+
+.decorator-right {
+  border-radius: 50% 0 0 50%;
+  margin-inline-start: 100%;
+}
+
+.decorator-left {
+  border-radius: 0 50% 50% 0;
+  margin-inline-end: 100%;
+}

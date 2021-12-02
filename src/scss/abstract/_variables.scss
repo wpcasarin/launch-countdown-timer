@@ -1,0 +1,15 @@
+$square-size: 9rem;
+$square-border-radius:calc($square-size / 12);
+$square-font-size: calc($square-size / 2);
+$square-decorator-size: calc($square-size / 10);
+$square-shadow-size: calc($square-size / 14);
+$square-shadow-blur: calc($square-size / 100);
+
+$text-font-size: 0.9rem;
+$text-letter-spacing: 0.2rem;
+
+$title-font-size: 1.4rem;
+$title-letter-spacing: 0.5rem;
+$title-margin: 8rem;
+
+$grid-gap: 2rem;

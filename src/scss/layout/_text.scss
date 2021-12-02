@@ -1,0 +1,8 @@
+@use "../abstract" as *;
+
+.text {
+  text-align: center;
+  color: $color-primary;
+  letter-spacing:$text-letter-spacing;
+  font-size: $text-font-size;
+}

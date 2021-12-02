@@ -1,0 +1,7 @@
+@use "../abstract" as *;
+
+.title {
+  font-size: $title-font-size;
+  letter-spacing: $title-letter-spacing;
+  margin-block: $title-margin;
+}
