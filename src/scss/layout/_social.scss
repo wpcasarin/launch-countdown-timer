@@ -3,12 +3,17 @@
 .social {
   display: flex;
   gap: 1.5rem;
-  position: absolute;
-  bottom: 5rem;
+  margin-inline: auto;
+  margin-block-start: auto;
+  margin-block-end: 3rem;
 }
 
 .social > *:hover,
 .social > *:focus-visible {
   filter: invert(51%) sepia(71%) saturate(1316%) hue-rotate(309deg)
     brightness(98%) contrast(100%);
+}
+
+.social a {
+  color: $color-primary;
 }

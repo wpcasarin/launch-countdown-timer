@@ -1,0 +1,6 @@
+.main-grid {
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+}

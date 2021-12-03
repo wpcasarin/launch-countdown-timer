@@ -1,11 +1,9 @@
 @use "../abstract" as *;
 
 body {
-  background: url("../assets/bg-stars.svg"), url("../assets/pattern-hills.svg"),
-    linear-gradient($color-blue-800, $color-gradient);
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, contain, 100%, 100vh;
-  background-position: top, bottom;
+  background: linear-gradient($color-blue-800, $color-gradient);
+  margin: auto;
+  display: flex;
 }
 
 h1 {

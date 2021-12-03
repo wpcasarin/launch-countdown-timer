@@ -1,3 +1,18 @@
+@use "../abstract" as *;
+
 body {
   font-family: "Red Hat Text", sans-serif;
+}
+
+.title {
+  font-size: $title-font-size;
+  letter-spacing: $title-letter-spacing;
+}
+
+.square {
+  font-size: $square-font-size;
+}
+
+.social a {
+  font-size: 2rem;
 }
